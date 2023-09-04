@@ -1,0 +1,5 @@
+easy_admin:
+  design:
+        # these custom templates are applied to all entities
+        templates:
+            edit: 'admin/new.html.twig'
