@@ -1,0 +1,17 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    
+    </style>
+    <title>Bienvenue sur T_Shop</title>
+</head>
+<body>
+<div>
+    <h1>Bonjour {{user.prenom}}</h1>
+    <p>cliquez <a href="{{ url('validate_account', {"token": user.token})}}">ici</a> pour activer votre compte</p>
+</div>
+    
+</body>
+</html>
